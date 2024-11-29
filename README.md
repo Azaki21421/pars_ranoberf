@@ -1,6 +1,6 @@
 # Ranoberf Parser and Database Manager
 
-This project is a parser and database manager for bookmarks from the website [ранобэрф.рф](https://ранобэрф.рф)/ [https://xn--80ac9aeh6f.xn--p1ai/](https://xn--80ac9aeh6f.xn--p1ai/). It allows users to log in, retrieve bookmarks, save them in a JSON file, and store them in an SQLite database for further analysis.
+This project is a parser and database manager for bookmarks from the website [ранобэ.рф](https://ранобэрф.рф)/ [https://xn--80ac9aeh6f.xn--p1ai/](https://xn--80ac9aeh6f.xn--p1ai/). It allows users to log in, retrieve bookmarks, save them in a JSON file, and store them in an SQLite database for further analysis.
 
 ## Features
 
