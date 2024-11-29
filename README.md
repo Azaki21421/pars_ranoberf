@@ -1,6 +1,6 @@
 # Ranoberf Parser and Database Manager
 
-This project is a parser and database manager for bookmarks from the website [ранобэ.рф](https://ранобэрф.рф)/ [https://xn--80ac9aeh6f.xn--p1ai/](https://xn--80ac9aeh6f.xn--p1ai/). It allows users to log in, retrieve bookmarks, save them in a JSON file, and store them in an SQLite database for further analysis.
+This project is a parser and database manager for bookmarks from the website [ранобэ.рф](https://ранобэ.рф)/ [https://xn--80ac9aeh6f.xn--p1ai/](https://xn--80ac9aeh6f.xn--p1ai/). It allows users to log in, retrieve bookmarks, save them in a JSON file, and store them in an SQLite database for further analysis.
 
 ## Features
 
@@ -39,7 +39,7 @@ python ranoberf.py
 
 3. Follow the prompts:
 
-- Enter your login credentials for ранобэрф.рф.
+- Enter your login credentials for ранобэ.рф.
 - Choose your preferred language (English or Russian).
 - The script will retrieve your bookmarks, save them in bookmarks_ranoberf.json, and store them in the SQLite database database.db.
 ## Files
@@ -64,8 +64,8 @@ The parsed data includes the following fields:
 ```yaml
 
 Book: Title (No English name)
-  URL: https://ранобэрф.рф/book-url
-  Image: https://ранобэрф.рф/image-url
+  URL: https://ранобэ.рф/book-url
+  Image: https://ранобэ.рф/image-url
   Chapter: 12 - Chapter Title
   Published: 2024-11-01
   Views: 1000
@@ -76,8 +76,8 @@ Book: Title (No English name)
 ### Russian Output
 ```yaml
 Книга: Название (Без английского названия)
-  URL: https://ранобэрф.рф/book-url
-  Изображение: https://ранобэрф.рф/image-url
+  URL: https://ранобэ.рф/book-url
+  Изображение: https://ранобэ.рф/image-url
   Глава: 12 - Название главы
   Опубликовано: 2024-11-01
   Просмотры: 1000
