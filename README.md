@@ -23,37 +23,40 @@ You can install the required libraries using pip:
 pip install requests beautifulsoup4
 ```
 ## Usage
-- 1. Clone the repository:
+
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ranoberf-parser.git
-cd ranoberf-parser
+git clone https://github.com/Azaki21421/pars_ranoberf
+cd pars_ranoberf
 ```
-- 2. Run the script:
+
+2. Run the script:
 
 ```bash
-python script.py
+python ranoberf.py
 ```
-- 3. Follow the prompts:
 
--- Enter your login credentials for ранобэрф.рф.
--- Choose your preferred language (English or Russian).
--- The script will retrieve your bookmarks, save them in bookmarks_ranoberf.json, and store them in the SQLite database database.db.
+3. Follow the prompts:
+
+- Enter your login credentials for ранобэрф.рф.
+- Choose your preferred language (English or Russian).
+- The script will retrieve your bookmarks, save them in bookmarks_ranoberf.json, and store them in the SQLite database database.db.
 ## Files
--- script.py: The main script containing all the functions.
--- bookmarks_ranoberf.json: JSON file generated with the parsed data.
--- database.db: SQLite database where parsed data is stored.
+- **script.py**: The main script containing all the functions.
+- **bookmarks_ranoberf.json**: JSON file generated with the parsed data.
+- **database.db**: SQLite database where parsed data is stored.
 
 ## Data Structure
 The parsed data includes the following fields:
 
--- title: The title of the book.
--- link: The URL of the book on the website.
--- updated: The last update timestamp.
--- chapter: The chapter number.
--- opened_chapter: The chapter title.
--- image_path: The URL of the book's image.
--- type_label: The type or category of the bookmark.
+- **title**: The title of the book.
+- **link**: The URL of the book on the website.
+- **updated**: The last update timestamp.
+- **chapter**: The chapter number.
+- **opened_chapter**: The chapter title.
+- **image_path**: The URL of the book's image.
+- **type_label**: The type or category of the bookmark.
 
 ## Examples
 
