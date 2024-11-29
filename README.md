@@ -15,12 +15,11 @@ This project is a parser and database manager for bookmarks from the website [р
 - Python 3.7+
 - The following Python libraries:
   - `requests`
-  - `BeautifulSoup` (from `bs4`)
   - `sqlite3` (built-in with Python)
 
 You can install the required libraries using pip:
 ```bash
-pip install requests beautifulsoup4
+pip install requests
 ```
 ## Usage
 
@@ -41,8 +40,10 @@ python ranoberf.py
 
 - Enter your login credentials for ранобэ.рф.
 - Choose your preferred language (English or Russian).
-- The script will retrieve your bookmarks, save them in bookmarks_ranoberf.json, and store them in the SQLite database database.db.
+- The script will retrieve your bookmarks, save them in **bookmarks_ranoberf.json**, and store them in the SQLite database **database.db**.
+- 
 ## Files
+
 - **script.py**: The main script containing all the functions.
 - **bookmarks_ranoberf.json**: JSON file generated with the parsed data.
 - **database.db**: SQLite database where parsed data is stored.
